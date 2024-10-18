@@ -9,7 +9,7 @@ python -m venv env
 env\Scripts\activate
 
 # install
-pip install Pillow rembg streamlit fastapi uvicorn python-multipart
+pip install Pillow rembg falsk
 
 # En MacOS/Linux:
 source env/bin/activate
