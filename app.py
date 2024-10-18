@@ -80,4 +80,4 @@ def remove_bg_api():
         return jsonify({"error": "Ocurrió un error al procesar la imagen"}), 500
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0')
