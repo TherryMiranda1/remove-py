@@ -5,8 +5,11 @@ import requests
 from io import BytesIO
 from PIL import Image
 from rembg import remove
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app, supports_credentials=True)
+
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
